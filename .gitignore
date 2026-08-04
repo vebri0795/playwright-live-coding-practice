@@ -1,0 +1,11 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+*.log
+.env
+.DS_Store
+plan-aprendizaje-playwright-live-coding_1.md
+notas-setup-inicial.md
