@@ -13,6 +13,8 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
   testDir: './tests',
+  /* orders-inventory.spec.ts needs a local mock API on ports 4000/4001 that isn't part of this repo/CI */
+  testIgnore: process.env.CI ? ['tests/api/orders-inventory.spec.ts'] : undefined,
   /* Run tests in files in parallel */
   fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
