@@ -7,5 +7,12 @@ playwright/.cache/
 *.log
 .env
 .DS_Store
-plan-aprendizaje-playwright-live-coding_1.md
-notas-setup-inicial.md
+learning-plan-playwright-live-coding_1.md
+setup-notes.md
+sql-practice/practice.db
+
+# Playwright
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
